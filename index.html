@@ -7,14 +7,50 @@
   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"
           integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
           crossorigin="anonymous"></script>
   <script type="text/javascript" src="./resources/js/trackster.js"></script>
   <script type="text/javascript" src="./resources/js/tests.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+
 </head>
 <body>
+  <div class="container-fluid">
+    <div class="row header first"> <!-- First Row -->
+      <h1 class="col-xs-7 col-xs-offset-1">trackster</h1>
+      <input class="col-xs-2" type="text" placeholder="Search" value="">
+      <i class="fa fa-search fa-2x col-xs-1" aria-hidden="true" id="search"></i>
+    </div>
+    <div class="row header second"> <!-- Second Row -->
+      <div class="col-xs-4 col-xs-offset-2">Song</div>
+      <div class="col-xs-2">Artist</div>
+      <div class="col-xs-2">Album</div>
+      <div class="col-xs-2">Popularity</div>
+    </div>
+    <div class="row header third"> <!-- Third Row -->
+      <div class="container-fluid" id="results">
+        <!-- Starts Mock -->
+        <!-- <div class="row result">
+          <div class="col-xs-1 col-xs-offset-1">
+            <a href="https://youtu.be/eI_O5_tJ1hA" target="_blank">
+              <i class="fa fa-play-circle-o fa-2x col-xs-1" aria-hidden="true" id="play"></i>
+            </a>
+          </div>
+          <div class="col-xs-4">Song Data</div>
+          <div class="col-xs-2">Artist Data</div>
+          <div class="col-xs-2">
+            <img src="https://lastfm-img2.akamaized.net/i/u/64s/87ef28fbed5e4a20ca027aff5bae4fc6.png" alt="image">
+          </div>
+          <div class="col-xs-2">Popularity Data</div>
+        </div> -->
+        <!-- Finishes Mock -->
+      </div>
+    </div>
+  </div>
 </body>
 </html>
